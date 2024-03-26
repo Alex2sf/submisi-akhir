@@ -13,8 +13,6 @@ const { spawn } = require('child_process');
 
 function main(command, args) {
   return spawn(command, args, {
-    stdio: ['inherit', 'pipe', 'pipe'] // Inherit stdin, use parent's stdout, use parent's stderr
+    stdio: ['ignore', 'inherit', 'pipe']
   });
 }
-
-module.exports = main;
