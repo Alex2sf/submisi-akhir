@@ -1,0 +1,11 @@
+{
+  "name": "13-2-unit-testing-callback",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
